@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="method">
+    <test name="methodlari calistir">
+        <classes>
+            <class name="tests.Ders09.C03_Priority">
+                <methods>
+                    <include name="testAmazon"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
